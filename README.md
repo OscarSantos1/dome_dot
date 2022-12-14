@@ -80,7 +80,7 @@ Once you complete a task, the date of completion is saved so, if you click on th
 
   
 
-The backend was developed using a python's flask framework and sqlite3 for the database.
+The backend was developed using a python's flask framework and sqlite3 for the database. **enter 'python app.py' to run the backend locally**
 
   
 
@@ -120,7 +120,7 @@ For deployment, a docker image is built from the backend files. The Dockerfile c
 
   
 
-The frontend was built using React JS. Using the module axios to make the request to the api. The routing is done on this side, also.
+The frontend was built using React JS. Using the module axios to make the request to the api. The routing is done on this side, also. **run 'export REACT_APP_API_URL=http://localhost:8080/api' before running the backend if running locally'**
 
   
 
